@@ -106,6 +106,7 @@ OpenSearch Serverless has the following limitations:
 + Custom OpenSearch plugins aren't supported\.
 + You can't take or restore snapshots of OpenSearch Serverless collections\.
 + Cross\-Region search and replication aren't supported\.
++ Cross\-collection search and cross\-cluster search are not supported.
 + There are limits on the number of serverless resources that you can have in a single account and Region\. See [OpenSearch Serverless quotas](limits.md#limits-serverless)\.
 + The refresh interval for indexes might be between 10 and 30 seconds depending on the size of your requests\.
 
